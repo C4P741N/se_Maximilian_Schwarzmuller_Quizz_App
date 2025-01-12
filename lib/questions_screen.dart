@@ -53,7 +53,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               return AnswerButton(
                 answerText: answer,
                 onTap: () {
-                  //Annonymous function
                   answerQuestion(answer);
                 },
               );
